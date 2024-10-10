@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f2f2f2;
+  position: relative;
+}
+
+.top-bar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  background-color: transparent;
+}
+
+.left-links a {
+  margin-right: 15px;
+  color: #5f6368;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.left-links a:hover {
+  text-decoration: underline;
+}
+
+.right-icons {
+  display: flex;
+  align-items: center;
+}
+
+.google-apps {
+  width: 24px;
+  height: 24px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.profile-img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
